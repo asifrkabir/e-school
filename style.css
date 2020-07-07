@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .logo {
@@ -61,3 +61,30 @@ header{
     padding-bottom: 50px;
 }
 
+.card-deck{
+    text-align: center;
+}
+
+.card-deck img{
+    height: 85px;
+    width: 66px;
+    margin: 20px auto;
+}
+
+.card{
+    border: none;
+    background-color: #F8FFFB;
+}
+
+@keyframes shadow{
+    0%{
+        box-shadow: 0px 20px 0px lightgray;
+    }
+    100%{
+        box-shadow: 0px 30px 40px lightgray;
+    }
+}
+
+.card-shadow{
+    animation: shadow 1s 0s infinite alternate ease-in-out;
+}
