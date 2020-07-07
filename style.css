@@ -2,8 +2,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
 .container{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -61,7 +67,7 @@ header{
     padding-bottom: 50px;
 }
 
-.card-deck{
+summary .card-deck{
     text-align: center;
 }
 
@@ -74,6 +80,7 @@ header{
 .card{
     border: none;
     background-color: #F8FFFB;
+    border-radius: 10px;
 }
 
 @keyframes shadow{
@@ -87,4 +94,40 @@ header{
 
 .card-shadow{
     animation: shadow 1s 0s infinite alternate ease-in-out;
+}
+
+.courses img{
+    height: auto;
+    width: 90%;
+}
+
+.courses .card{
+    /* box-shadow: 0px 30px 30px rgb(221, 220, 220); */
+    animation: shadow 1s 0s infinite alternate ease-in-out;
+}
+
+.courses .card-body{
+    padding-top: 0px;
+    height: 130px;
+}
+
+.courses .card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.courses .card-footer img{
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+
+.courses .card-footer p{
+    margin: 1px 5px;
+    font-weight: 600;
+    color: gray;
+}
+
+.courses .green-btn{
+    height: 30px;
 }
