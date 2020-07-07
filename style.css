@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 h2{
@@ -25,7 +26,7 @@ header{
 }
 
 .navbar li a{
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .green-btn{
@@ -130,4 +131,44 @@ summary .card-deck{
 
 .courses .green-btn{
     height: 30px;
+}
+
+.testimonial img{
+    height: 120px;
+    width: 120px;
+}
+
+.testimonial .review{
+    margin: auto;
+    width: 90%;
+}
+
+.testimonial .profile-pic{
+    max-width: 40%;
+}
+
+footer{
+    background-color: #282531;
+    width: auto;
+}
+
+.footer-body{
+    padding: 50px 0px;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .copyright-info{
+    text-align: center;
+}
+
+footer #long-sentence{
+    margin-bottom: 30px;
+}
+
+.footer-body{
+    margin-bottom: 10px;
 }
